@@ -1,0 +1,203 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+.conter{
+    background-color: rgb(40, 34, 34);
+    position: relative;
+    
+}
+
+.header{
+    width: 100%;
+    height: 5vw;
+    background-color: rgb(40, 34, 34);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px;
+    position: fixed;
+
+    
+}
+
+.left h1{
+    letter-spacing: 1px;
+
+    color:rgb(212, 137, 24);
+    font-size: 3vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.right{
+    display: flex;
+    gap:17px;
+}
+
+.right li{
+    list-style: none;
+    color:rgb(212, 137, 24);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+.unserline{
+    border-bottom: 2px solid     rgb(212, 137, 24);;
+}
+.right li:hover{
+    border-bottom: 2px solid black;
+    color:#dada;
+    
+}
+
+.main{
+height:95vh;
+width: 100%;
+text-align: center;
+align-items: center;
+display: flex;
+justify-content: center;
+flex-direction: column;
+
+}
+
+.main h1{
+    font-size: 45px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    color:rgb(212, 137, 24);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main h4{
+    text-align: center;
+    margin-top: 40px;
+    color:rgb(212, 137, 24);
+    font-size: 20px;
+    margin-bottom: 0%;
+}
+.main ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+.main ul li{
+    color :rgb(239, 147, 8);
+}
+.main ul li:hover{
+    color:rgb(218, 212, 202);
+    cursor: pointer;
+}
+.firstheading{
+    text-align: center;
+}
+.firstheading h1{
+    letter-spacing: 2px;
+    color:rgb(212, 137, 24);
+    font-size: 35px;
+    font-weight:500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.first_container{
+    width: 100%;
+    height: 400px;
+    display:flex;
+    margin-top: 30px;
+    gap:10%;
+    padding-left: 40px;
+
+    
+    
+
+ 
+
+   
+    
+}
+.left_container{
+    width: 40%;
+    
+}
+.mtv{
+    
+    padding:10px;
+    margin-bottom:10px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 8px solid #111;
+    font-size: 14px;
+    font-weight: 500;
+}
+#red{
+    border-bottom: 8px solid red;
+}
+#green{
+    border-bottom: 8px solid yellow;
+
+}
+
+
+#yellow{
+    border-bottom: 8px solid green;
+}
+#parpul{
+    border-bottom: 8px solid lightgreen;
+}
+
+.right_container{
+width: 40%;
+
+}
+.right_container h1{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: rgb(80, 77, 77);
+margin-top:17px;
+
+}
+
+
+.right_container p{
+    padding-left: 50px;
+}
+
+.footer{
+    padding:0px 20px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+    background-color: rgb(40, 34, 34);
+    color:rgb(235, 177, 90);
+    
+}
+
+.footer_left li{
+    padding:0px 10px;
+    display: inline;
+    gap:5%;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer_mid{
+    list-style: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer_right  i{
+    padding:5px;
+    font-size: 23px;
+    font-weight: 700;
+
+}
